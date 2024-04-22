@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X4YnWXsuJXKZ+fg1E9X+7VaXGmbBIVxD63Dir7ZqRw5ri6aM0Csy2F7n5G81odrHfKYijpezVT7+kQRYkeAWHg==",
+  "dgSpecHash": "6IFH8q/ovQkwpHG8Bx8r3BVfU2zkk04GVtP1spl6hMx4WcTTk04N2xeLXOuCxOWL3rOCZvVX2KwtwqoE5Al73g==",
   "success": true,
-  "projectFilePath": "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
+  "projectFilePath": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

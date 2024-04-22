@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj": {}
+    "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj": {}
   },
   "projects": {
-    "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj": {
+    "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
+        "projectUniqueName": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
         "projectName": "GameStore.API",
-        "projectPath": "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
+        "projectPath": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
         "packagesPath": "C:\\Users\\Leo\\.nuget\\packages\\",
-        "outputPath": "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\obj\\",
+        "outputPath": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

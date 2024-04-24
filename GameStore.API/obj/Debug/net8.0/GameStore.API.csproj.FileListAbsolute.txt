@@ -24,3 +24,9 @@ C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Deb
 C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\GameStore.API.pdb
 C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\GameStore.API.genruntimeconfig.cache
 C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\ref\GameStore.API.dll
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\bin\Debug\net8.0\MinimalApis.Extensions.dll
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\bin\Debug\net8.0\MiniValidation.dll
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\GameStore.API.csproj.AssemblyReference.cache
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\GameStore.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Projetos ASP.NET\ASP.NET Core full course for beginners\GameStore.API\obj\Debug\net8.0\GameStor.26D12FD2.Up2Date

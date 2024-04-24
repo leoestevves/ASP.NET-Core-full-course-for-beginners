@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "6IFH8q/ovQkwpHG8Bx8r3BVfU2zkk04GVtP1spl6hMx4WcTTk04N2xeLXOuCxOWL3rOCZvVX2KwtwqoE5Al73g==",
+  "dgSpecHash": "CCBDH9Q17sYaEXqb3V96MsJjxNNF0gbcaC4fmGrkpVpZo3dvxEUkBhzxcQJ72TwL1a4F6vJFPF0nOmDwsQgEAA==",
   "success": true,
   "projectFilePath": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Leo\\.nuget\\packages\\minimalapis.extensions\\0.11.0\\minimalapis.extensions.0.11.0.nupkg.sha512",
+    "C:\\Users\\Leo\\.nuget\\packages\\minivalidation\\0.8.0\\minivalidation.0.8.0.nupkg.sha512"
+  ],
   "logs": []
 }

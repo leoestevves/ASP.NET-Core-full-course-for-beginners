@@ -29,7 +29,9 @@ public static class GamesEndpoints
 
     public static RouteGroupBuilder MapGamesEndpoints(this WebApplication app)
     {
-        var group = app.MapGroup("games"); //Com isso nao precisa ficar escrevendo "games" como string em cada metodo do CRUD, substituindo "app" por "group".
+        var group = app.MapGroup("games") //Com isso nao precisa ficar escrevendo "games" como string em cada metodo do CRUD, substituindo "app" por "group".
+                       .WithParameterValidation();  //Metodo importado do MinimalApis.Extension
+
 
         //CRUD
 
@@ -61,7 +63,7 @@ public static class GamesEndpoints
             games.Add(game);
 
             return Results.CreatedAtRoute(GET_GAME_ENDPOINT_NAME, new {id = game.Id}, game);
-        });
+        });        
 
 
         //(Update)  PUT /games/1

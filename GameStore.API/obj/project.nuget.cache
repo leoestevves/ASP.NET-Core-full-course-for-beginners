@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CxPXj+IkX+xYNdyREdvLk8KDQqLLbXKjr/Jqu6D0EAXrSbjtGkRUr2th/JYDXrVYDh0czYjfR3IEXvzLJtjPQg==",
+  "dgSpecHash": "ht1Zx15xFy1fiuJsmdJ6SxF7+PBMHfn6p5SKYUOpc83CWXayJSZmYhsU3sjpQHG2fFGsWU7KrR+LxgMcT0SXbw==",
   "success": true,
-  "projectFilePath": "C:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
+  "projectFilePath": "c:\\Projetos ASP.NET\\ASP.NET Core full course for beginners\\GameStore.API\\GameStore.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.2\\microsoft.data.sqlite.core.8.0.2.nupkg.sha512",
     "C:\\Users\\Leo\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.2\\microsoft.entityframeworkcore.8.0.2.nupkg.sha512",

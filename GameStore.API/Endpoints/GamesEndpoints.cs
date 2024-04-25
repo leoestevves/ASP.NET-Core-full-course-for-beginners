@@ -10,13 +10,13 @@ public static class GamesEndpoints
         new (
             1,
             "Lost Ark",
-            "MMORPG",
+            "Action RPG",
             19.99M,
             new DateOnly(2018, 11, 18)),
         new (
             2,
             "Final Fantasy XIV",
-            "Roleplaying",
+            "MMORPG",
             59.99M,
             new DateOnly(2010, 9, 30)),
         new (

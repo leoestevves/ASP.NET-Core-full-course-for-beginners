@@ -1,7 +1,7 @@
 GET http://localhost:5266/games
 
 ###
-GET http://localhost:5266/games/4
+GET http://localhost:5266/games/2
 
 ###
 POST http://localhost:5266/games
@@ -20,8 +20,8 @@ Content-Type: application/json
 
 {    
     "name": "Lost Ark Mokoko Edition",
-    "genre": "MMORPG",
-    "price": 9.99,
+    "genreId": 1,
+    "price": 19.99,
     "releaseDate": "2018-11-18"
 }
 

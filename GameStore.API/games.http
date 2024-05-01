@@ -8,10 +8,10 @@ POST http://localhost:5266/games
 Content-Type: application/json
 
 {
-    "name": "Lost Ark",
-    "genreId": 1,
-    "price": 9.99,
-    "releaseDate": "2018-11-18"
+    "name": "Final Fantasy XIV",
+    "genreId": 4,
+    "price": 59.99,
+    "releaseDate": "2010-09-30"
 }
 
 ###

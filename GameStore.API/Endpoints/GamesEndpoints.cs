@@ -1,4 +1,6 @@
-﻿using GameStore.API.Dtos;
+﻿using GameStore.API.Data;
+using GameStore.API.Dtos;
+using GameStore.API.Entities;
 
 namespace GameStore.API.Endpoints;
 
@@ -50,19 +52,29 @@ public static class GamesEndpoints
 
 
         //(Create)  POST /games
-        group.MapPost("/", (CreateGameDto newGame) => {
-            GameDto game = new
-            (
-                games.Count + 1,
-                newGame.Name,
-                newGame.Genre,
-                newGame.Price,
-                newGame.ReleaseDate
+        group.MapPost("/", (CreateGameDto newGame, GameStoreContext dbContext) => 
+        {           
+            Game game = new()
+            {
+                Name = newGame.Name,
+                Genre = dbContext.Genres.Find(newGame.GenreId),
+                GenreId = newGame.GenreId,
+                Price = newGame.Price,
+                ReleaseDate = newGame.ReleaseDate
+            };
+
+            dbContext.Games.Add(game);
+            dbContext.SaveChanges();
+
+            GameDto gameDto = new(
+                game.Id,
+                game.Name,
+                game.Genre!.Name,
+                game.Price,
+                game.ReleaseDate
             );
 
-            games.Add(game);
-
-            return Results.CreatedAtRoute(GET_GAME_ENDPOINT_NAME, new {id = game.Id}, game);
+            return Results.CreatedAtRoute(GET_GAME_ENDPOINT_NAME, new {id = game.Id}, gameDto);
         });        
 
 

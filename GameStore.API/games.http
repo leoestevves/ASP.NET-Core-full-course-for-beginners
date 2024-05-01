@@ -8,10 +8,10 @@ POST http://localhost:5266/games
 Content-Type: application/json
 
 {
-    "name": "Minecraft",
-    "genre": "Kids and Family",
-    "price": 19.99,
-    "releaseDate": "2011-11-18"
+    "name": "Lost Ark",
+    "genreId": 1,
+    "price": 9.99,
+    "releaseDate": "2018-11-18"
 }
 
 ###

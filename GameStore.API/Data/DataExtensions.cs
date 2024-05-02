@@ -4,10 +4,10 @@ namespace GameStore.API.Data;
 
 public static class DataExtensions
 {
-    public static void MigrateDb(this WebApplication app) //Toda vez que a aplicacao inicia, o banco atualiza
+    public static async Task MigrateDbAsync(this WebApplication app) //Toda vez que a aplicacao inicia, o banco atualiza
     {
         using var scope = app.Services.CreateScope();
         var dbContext = scope.ServiceProvider.GetRequiredService<GameStoreContext>();
-        dbContext.Database.Migrate();
+        await dbContext.Database.MigrateAsync();
     }
 }

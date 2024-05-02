@@ -10,7 +10,8 @@ builder.Services.AddSqlite<GameStoreContext>(connString); //Utiliza o Scoped Lif
 var app = builder.Build();
 
 app.MapGamesEndpoints();
+app.MapGenresEndpoints();
 
-app.MigrateDb(); //Invocando o metodo
+await app.MigrateDbAsync(); //Invocando o metodo
 
 app.Run();
